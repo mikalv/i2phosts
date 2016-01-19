@@ -4,7 +4,6 @@
 #wget http://stats.i2p/cgi-bin/newhosts.txt -e use_proxy=yes -e http_proxy=127.0.0.1:4444 -O stats.i2p/hosts || git checkout stats.i2p/hosts
 #wget http://no.i2p/export/alive-hosts.txt -e use_proxy=yes -e http_proxy=127.0.0.1:4444 -O no.i2p/hosts || git checkout no.i2p/hosts
 
-
 M=$(git status --porcelain 2>/dev/null| grep "^ M" | wc -l)
 if [ $M -gt 0 ]
 then
