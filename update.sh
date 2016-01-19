@@ -9,5 +9,8 @@ if [ $M -gt 0 ]
 then
 	git add .
 	git commit -m "Update hosts"
+	git push
+else
+	echo "No update"
 fi
 
