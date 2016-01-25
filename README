@@ -1,8 +1,6 @@
 I2P Hosts synchronization
 
-This scripts run once a day:
-
-0 0 * * * PATH/update.sh
+This scripts run once a day: 0 0 * * * PATH/update.sh
 
 
 WARNING
