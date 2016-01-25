@@ -5,6 +5,6 @@ This scripts run once a day: 0 0 * * * PATH/update.sh
 
 WARNING
 
-If you love I2P: please not running update.sh for this reason -> https://github.com/tailot/i2phosts/issues/1
+If you love I2P: please not running update.sh for this reason https://github.com/tailot/i2phosts/issues/1
 
 Thanks!
